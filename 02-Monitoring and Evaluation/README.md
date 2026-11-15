@@ -1,65 +1,27 @@
-# Monitoring and Evaluation (M&E) Project
+# Monitoring and Evaluation (M&E) Portfolio Project
 
-## 1. Project Overview
-This project demonstrates the application of Monitoring and Evaluation (M&E) principles and tools in project planning, implementation, performance tracking, and reporting.
+## Project
+**Reducing Malnutrition in Loima Sub-county, Turkana County**  
+**Duration:** Three years  
+**Target groups:** Children under five, pregnant women and lactating mothers, caregivers, community health promoters and frontline health workers.
 
-It focuses on developing practical M&E systems that support evidence-based decision-making, accountability, learning, and improved project performance.
-The project applies M&E concepts to a hypothetical development or public health intervention.
+## Overview
+This portfolio project demonstrates practical M&E system design for a hypothetical public health and nutrition intervention. It includes a logical framework, indicator reference sheets, an indicator tracking workbook, data collection and supervision tools, and reporting templates.
 
-## 2. Project Objectives
-- Develop a project logical framework.
-- Formulate SMART indicators for measuring project performance.
-- Develop an indicator tracking table.
-- Establish data collection and reporting procedures.
-- Monitor project activities, outputs, outcomes, and impact.
-- Analyse project performance against planned targets.
-- Prepare monitoring reports and recommendations.
+## Folder contents
+- `framework/ME_framework_and_logical_framework.docx` – theory of change, logical framework, activities, monitoring plan, roles, DQA, learning and risks.
+- `indicators/ME_indicator_tracking_and_DQA_tool.xlsx` – logical framework matrix, indicator reference, quarterly tracker, DQA checklist and risk register.
+- `tools/ME_data_collection_and_supervision_tools.docx` – screening/referral summary, counselling record, facility reporting checklist, supervision checklist and feedback log.
+- `reports/Illustrative_quarterly_monitoring_report.docx` – fictional quarterly performance example and corrective action plan.
+- `reports/Endline_evaluation_report_template.docx` – evaluation questions, methodology, findings and recommendations structure.
 
-## 3. Tools and Technologies
-- Microsoft Excel
-- KoboToolbox
-- ODK
-- Microsoft Word
-- Power BI (for data visualization, where applicable)
+## Skills demonstrated
+Results-based management; logical framework development; theory of change; SMART indicator development; baseline and target setting; indicator tracking; data collection tool design; data quality assessment; supportive supervision; monitoring report writing; evaluation planning.
 
-## 4. Project Components
+## Important note
+This is a learning and portfolio demonstration, not an official project document. All baselines, targets and sample quarterly results are illustrative and are not actual Loima Sub-county statistics. Before operational use, validate indicators and targets with stakeholders, establish a real baseline, and align tools with current Ministry of Health and county requirements. Do not upload identifiable patient, caregiver or respondent data.
 
-### Logical Framework
-Defines the project goal, objectives, expected results, activities, indicators, means of verification, and assumptions.
+## Professional focus
+Health Records and Information Management | Health Data Analytics | Monitoring and Evaluation
 
-### SMART Indicators
-Develops Specific, Measurable, Achievable, Relevant, and Time-bound indicators for tracking project performance.
 
-### Indicator Tracking Table
-Provides a structured approach for recording indicator baselines, targets, actual achievements, and performance.
-
-### Data Collection Tools
-Demonstrates the use of structured questionnaires, checklists, and digital data collection tools.
-
-### Monitoring Reports
-Presents project progress, performance gaps, challenges, lessons learned, and recommendations.
-
-## 5. Key Skills Demonstrated
-- M&E framework development
-- Logical framework approach
-- Results-based monitoring
-- SMART indicator development
-- Indicator tracking and performance measurement
-- Data collection and management
-- Data quality assessment
-- Monitoring data analysis
-- Report writing and presentation
-- Evidence-based decision-making
-
-## 6. Applications
-The skills demonstrated in this project are applicable in:
-- Public health programmes
-- Healthcare projects
-- Non-governmental organizations
-- Community development programmes
-- Nutrition interventions
-- Donor-funded projects
-- Government development programmes
-
-## 7. Data Protection
-Any sample datasets used in this project are synthetic and intended for demonstration and learning purposes.

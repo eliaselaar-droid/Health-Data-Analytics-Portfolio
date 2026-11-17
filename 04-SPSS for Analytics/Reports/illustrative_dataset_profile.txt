@@ -1,0 +1,8 @@
+SYNTHETIC DATA PROFILE — NOT REAL HOSPITAL STATISTICS
+Records: 300
+Mean age: 43.8 years
+Mean BMI: 26.4 kg/m2
+Mean systolic BP: 130.8 mmHg
+Mean fasting glucose: 5.9 mmol/L
+Readmission flag proportion: 18.7%
+Follow-up completion proportion: 77.0%

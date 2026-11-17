@@ -1,0 +1,6 @@
+FREQUENCIES VARIABLES=GenderCode CountyCode DiagnosisCode Readmission30d FollowUpCompleted SatisfactionScore.
+DESCRIPTIVES VARIABLES=Age BMI SystolicBP DiastolicBP FastingGlucose LengthOfStayDays
+ /STATISTICS=MEAN STDDEV MIN MAX.
+EXAMINE VARIABLES=Age BMI SystolicBP DiastolicBP FastingGlucose LengthOfStayDays
+ /PLOT=HISTOGRAM NPPLOT /STATISTICS=DESCRIPTIVES /CINTERVAL=95.
+MEANS TABLES=BMI BY DiagnosisCode /CELLS=COUNT MEAN STDDEV.

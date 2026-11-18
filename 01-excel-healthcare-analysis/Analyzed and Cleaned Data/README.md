@@ -10,7 +10,6 @@ The main objective was to prepare the dataset for accurate analysis by identifyi
 - Identify and handle missing values.
 - Detect and remove duplicate records where appropriate.
 - Correct inconsistencies and formatting errors.
-- Perform exploratory data analysis (EDA).
 - Identify trends, patterns, and relationships within the dataset.
 - Generate meaningful insights from the cleaned data.
 

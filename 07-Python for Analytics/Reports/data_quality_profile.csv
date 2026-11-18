@@ -1,0 +1,14 @@
+,missing_count,missing_percent
+PatientID,0,0
+Age,0,0
+Gender,7,1.16
+County,8,1.32
+Diagnosis,5,0.83
+BMI,9,1.49
+SystolicBP,0,0
+DiastolicBP,0,0
+FastingGlucose,6,0.99
+LengthOfStayDays,0,0
+Readmission30d,0,0
+FollowUpCompleted,0,0
+VisitDate,0,0

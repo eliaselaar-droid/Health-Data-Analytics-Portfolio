@@ -1,0 +1,4 @@
+step,records_before,records_after
+Remove duplicate PatientID,605,600
+Fill categorical nulls,600,600
+Median imputation for BMI and glucose,600,600

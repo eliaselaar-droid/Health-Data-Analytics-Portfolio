@@ -1,0 +1,601 @@
+PatientID,Age,Gender,County,Diagnosis,BMI,SystolicBP,DiastolicBP,FastingGlucose,LengthOfStayDays,Readmission30d,FollowUpCompleted,VisitDate
+20001,47,Male,Turkana,Diabetes,25.7,141,76,7.5,7,0,1,2025-03-06
+20002,25,Male,Kiambu,Hypertension,24.1,119,56,3.5,1,0,1,2025-10-29
+20003,54,Female,Kisumu,HIV,30.2,129,74,7.6,8,0,1,2025-12-18
+20004,57,Female,Kiambu,Respiratory infection,22.5,129,87,5.1,5,0,1,2026-01-19
+20005,18,Female,Nairobi,Malaria,21.6,123,53,4.1,11,0,1,2026-03-17
+20006,21,Female,Nairobi,HIV,27.7,121,59,5.4,7,0,1,2026-10-31
+20007,44,Female,Turkana,Diabetes,18.6,138,66,6.3,4,0,1,2026-05-23
+20008,37,Male,Nairobi,Malaria,27.3,128,72,5.0,1,1,0,2025-01-18
+20009,42,Male,Turkana,Malaria,26.0,139,70,6.7,7,0,0,2025-03-01
+20010,28,Male,Kisumu,Respiratory infection,24.8,123,82,4.8,5,1,1,2025-01-01
+20011,56,Female,Kisumu,Diabetes,32.6,145,84,6.9,0,0,1,2025-09-22
+20012,54,Male,Nakuru,Other,22.7,145,80,6.6,6,1,1,2025-08-23
+20013,43,Female,Turkana,Hypertension,34.8,120,75,5.7,2,0,0,2026-09-17
+20014,60,Female,Nakuru,Respiratory infection,24.5,116,80,5.0,2,0,1,2025-09-02
+20015,49,Female,Nakuru,Diabetes,19.8,151,68,6.1,0,0,1,2025-01-21
+20016,28,Male,Nairobi,HIV,25.8,125,77,6.7,4,0,1,2026-08-15
+20017,48,Female,Kiambu,HIV,20.7,111,66,9.3,2,0,1,2025-06-24
+20018,27,Female,Turkana,Hypertension,22.1,113,77,7.4,0,0,1,2026-09-03
+20019,56,Female,Uasin Gishu,Other,27.3,145,86,7.5,5,0,1,2026-06-03
+20020,41,Female,Nairobi,HIV,28.0,125,75,11.1,2,0,1,2026-08-13
+20021,39,Female,Nairobi,Hypertension,22.7,121,71,6.7,1,0,1,2026-07-03
+20022,31,Female,Uasin Gishu,HIV,29.9,140,74,6.6,5,0,0,2025-04-06
+20023,62,Female,Uasin Gishu,Other,30.7,126,55,7.0,0,0,0,2026-02-23
+20024,40,Female,Kiambu,Respiratory infection,32.0,118,75,4.1,11,0,1,2025-10-03
+20025,35,Female,Kisumu,Respiratory infection,27.9,128,71,5.0,5,0,1,2026-02-25
+20026,36,Female,Turkana,Respiratory infection,31.6,131,72,4.9,11,1,1,2026-05-14
+20027,51,Male,Kiambu,Malaria,17.0,139,81,6.9,10,0,0,2025-12-02
+20028,48,Female,Kiambu,Respiratory infection,24.1,143,74,5.5,11,0,1,2025-07-29
+20029,49,Male,Kisumu,HIV,21.6,135,66,6.0,6,0,1,2026-09-06
+20030,49,Male,Turkana,Other,26.0,138,74,7.6,5,0,0,2026-03-20
+20031,76,Female,Kiambu,Respiratory infection,22.9,143,81,7.3,8,0,1,2026-08-16
+20032,35,Female,Kisumu,Respiratory infection,24.8,126,73,5.5,0,1,1,2025-06-08
+20033,34,Female,Kiambu,Hypertension,34.0,126,73,4.7,10,0,1,2026-07-15
+20034,29,Female,Nakuru,Respiratory infection,24.7,125,79,7.7,3,0,1,2025-08-05
+20035,52,Female,Nairobi,Hypertension,27.4,143,67,7.1,0,0,1,2025-11-05
+20036,60,Female,Kiambu,HIV,24.5,145,78,3.1,2,0,1,2026-07-30
+20037,40,Female,Kiambu,Other,25.8,129,83,5.3,2,0,0,2025-08-26
+20038,29,Female,Uasin Gishu,Diabetes,25.5,113,57,6.1,0,0,1,2025-06-17
+20039,29,Male,Uasin Gishu,HIV,27.5,123,72,7.1,8,0,0,2026-09-05
+20040,52,Female,Turkana,Malaria,30.7,134,71,7.3,1,1,1,2026-10-08
+20041,54,Male,Nairobi,Diabetes,32.9,137,73,6.3,10,0,1,2025-07-28
+20042,51,Female,Nakuru,Other,26.9,160,68,6.8,5,0,0,2025-07-24
+20043,31,Male,Kisumu,Hypertension,28.2,117,70,5.9,8,0,1,2025-06-02
+20044,46,Female,Uasin Gishu,HIV,20.3,136,89,4.7,4,0,1,2025-01-16
+20045,44,Male,Kisumu,Other,25.1,143,64,5.4,1,0,1,2026-01-05
+20046,45,Male,Uasin Gishu,Malaria,29.7,132,65,5.8,2,0,1,2025-06-20
+20047,56,Female,Nakuru,Diabetes,29.4,164,66,5.7,7,0,0,2026-07-23
+20048,46,Male,Kiambu,Respiratory infection,26.5,126,88,2.6,8,0,1,2025-04-25
+20049,53,Female,Nakuru,Malaria,29.5,138,72,5.1,3,0,1,2026-03-01
+20050,43,Female,Kiambu,HIV,27.7,120,73,5.9,4,0,1,2025-12-06
+20051,47,Male,Kisumu,Respiratory infection,30.9,127,71,5.3,11,0,1,2026-02-14
+20052,52,Male,Kiambu,Hypertension,26.8,137,68,5.4,10,0,1,2025-03-17
+20053,19,Unknown,Nakuru,Respiratory infection,23.9,128,67,6.6,4,1,1,2025-11-09
+20054,37,Male,Unknown,Other,27.0,130,92,4.0,2,0,1,2026-02-23
+20055,34,Male,Turkana,Malaria,15.0,140,83,3.0,3,1,1,2025-08-17
+20056,32,Male,Turkana,Respiratory infection,27.2,123,65,5.2,6,0,0,2026-08-09
+20057,38,Female,Nakuru,Diabetes,15.0,123,78,7.1,6,0,1,2025-12-21
+20058,66,Male,Uasin Gishu,Diabetes,17.7,173,72,8.7,2,0,1,2025-08-31
+20059,28,Female,Nairobi,Hypertension,27.5,127,56,7.1,0,0,1,2025-01-21
+20060,57,Male,Uasin Gishu,Other,27.6,128,85,3.3,5,0,1,2025-04-23
+20061,18,Male,Nairobi,Malaria,20.3,109,78,5.4,9,0,1,2025-11-15
+20062,37,Male,Turkana,Hypertension,22.3,115,81,6.2,1,0,1,2025-09-25
+20063,45,Male,Kisumu,Respiratory infection,31.7,142,70,6.1,4,0,1,2026-08-07
+20064,51,Male,Turkana,Other,23.3,129,74,6.7,1,0,0,2026-06-10
+20065,53,Female,Nakuru,Other,35.6,136,82,4.2,2,0,1,2025-04-17
+20066,55,Female,Uasin Gishu,Diabetes,25.5,135,79,5.9,7,0,1,2026-01-31
+20067,36,Male,Kisumu,Respiratory infection,27.3,135,69,6.5,3,0,0,2025-10-31
+20068,35,Female,Uasin Gishu,Malaria,32.8,115,59,7.2,3,0,1,2025-03-09
+20069,56,Male,Kiambu,Hypertension,26.1,123,77,4.4,11,1,0,2026-03-22
+20070,39,Female,Kiambu,Unknown,21.0,130,81,5.2,2,0,1,2025-12-26
+20071,22,Male,Kisumu,HIV,25.0,126,60,2.5,2,1,0,2025-02-28
+20072,24,Female,Turkana,Diabetes,25.3,124,75,4.7,11,0,1,2025-11-10
+20073,27,Female,Nakuru,Malaria,19.4,112,73,4.9,6,0,1,2026-05-05
+20074,50,Female,Nakuru,Other,24.3,141,81,4.1,0,0,1,2025-08-07
+20075,44,Female,Kiambu,Other,22.2,121,81,6.1,5,0,1,2025-08-27
+20076,53,Female,Kiambu,Diabetes,29.7,128,70,5.7,6,0,1,2025-03-15
+20077,35,Female,Uasin Gishu,Respiratory infection,25.7,114,59,2.5,3,0,0,2025-05-17
+20078,45,Male,Kisumu,HIV,24.2,146,70,6.2,6,1,1,2026-10-19
+20079,52,Male,Kiambu,Respiratory infection,25.0,142,83,4.2,7,0,1,2026-02-20
+20080,37,Male,Uasin Gishu,Unknown,26.5,134,68,6.6,3,1,0,2025-04-28
+20081,49,Male,Kisumu,Hypertension,28.3,147,69,3.6,9,0,1,2025-11-19
+20082,31,Male,Uasin Gishu,Respiratory infection,21.0,157,57,5.9,5,0,1,2025-05-09
+20083,36,Male,Uasin Gishu,Hypertension,20.8,105,86,5.3,11,0,1,2025-10-24
+20084,36,Female,Uasin Gishu,Respiratory infection,30.5,117,79,6.3,1,0,1,2025-04-08
+20085,23,Male,Turkana,Malaria,23.6,112,76,6.0,3,0,1,2026-02-18
+20086,50,Female,Nakuru,Other,19.1,123,83,5.4,8,0,1,2026-01-17
+20087,34,Female,Uasin Gishu,Malaria,27.5,112,76,3.2,10,1,1,2026-02-28
+20088,42,Male,Kiambu,Diabetes,27.6,125,71,3.3,2,0,1,2025-10-24
+20089,50,Female,Nairobi,Respiratory infection,18.6,118,74,4.8,11,0,1,2025-07-11
+20090,49,Male,Kiambu,Hypertension,26.5,137,71,5.8,2,0,1,2025-06-16
+20091,53,Male,Turkana,Malaria,28.8,135,97,4.8,4,0,1,2025-05-24
+20092,40,Male,Turkana,HIV,27.2,134,77,6.9,3,0,1,2025-10-15
+20093,35,Male,Nairobi,HIV,28.3,132,68,5.3,5,0,1,2025-10-30
+20094,41,Male,Turkana,Malaria,19.2,136,77,4.2,10,0,1,2026-03-27
+20095,18,Female,Kiambu,Diabetes,27.0,113,61,5.3,8,0,1,2025-02-05
+20096,19,Male,Turkana,Other,24.1,143,81,6.2,9,0,1,2025-07-08
+20097,21,Female,Turkana,Other,23.3,121,64,6.4,3,0,0,2026-07-25
+20098,26,Female,Turkana,Respiratory infection,29.4,99,74,9.0,11,0,1,2026-09-05
+20099,48,Female,Kisumu,Respiratory infection,32.2,120,83,4.7,5,0,1,2026-09-15
+20100,28,Female,Kisumu,Malaria,33.6,101,74,5.7,7,0,1,2025-07-24
+20101,36,Male,Nakuru,HIV,31.4,126,73,6.5,8,0,1,2025-04-02
+20102,63,Female,Nakuru,Hypertension,25.0,138,78,5.8,7,1,0,2025-05-13
+20103,36,Male,Nakuru,Unknown,27.1,120,72,4.9,7,0,0,2025-03-30
+20104,54,Male,Kisumu,Other,29.0,159,71,3.2,5,0,0,2026-10-01
+20105,27,Male,Kisumu,Diabetes,26.0,128,67,4.9,7,0,1,2026-08-14
+20106,39,Male,Kiambu,Hypertension,26.1,136,85,4.0,10,0,1,2026-06-27
+20107,27,Female,Turkana,Hypertension,29.2,110,70,2.9,4,0,1,2026-05-04
+20108,37,Female,Nairobi,HIV,25.2,115,66,4.4,6,0,1,2025-08-18
+20109,55,Male,Kisumu,HIV,22.2,136,72,4.0,2,1,1,2025-11-15
+20110,18,Male,Kiambu,Hypertension,23.6,119,77,6.8,4,0,1,2026-07-17
+20111,49,Male,Turkana,HIV,28.4,110,80,6.8,9,0,1,2026-06-29
+20112,46,Female,Uasin Gishu,HIV,25.5,129,79,4.3,7,0,0,2025-12-14
+20113,32,Female,Uasin Gishu,Hypertension,27.0,124,69,5.4,2,0,1,2026-07-15
+20114,19,Female,Kisumu,Diabetes,28.5,115,73,2.6,6,0,1,2025-08-20
+20115,43,Female,Nairobi,Malaria,23.8,120,68,5.0,9,0,0,2025-10-04
+20116,34,Female,Kiambu,HIV,28.9,119,70,6.5,1,0,1,2026-07-16
+20117,46,Male,Nairobi,Diabetes,27.2,129,82,7.2,0,0,1,2025-09-09
+20118,42,Female,Nakuru,Hypertension,19.9,130,80,4.6,4,0,1,2026-05-19
+20119,68,Male,Uasin Gishu,Other,32.0,149,71,7.6,7,0,1,2025-10-31
+20120,38,Male,Turkana,Malaria,23.2,140,66,3.2,3,0,1,2025-07-19
+20121,26,Male,Kiambu,Other,18.1,117,71,3.7,9,0,1,2025-05-27
+20122,45,Female,Nairobi,Hypertension,20.8,125,88,7.0,10,0,1,2026-02-10
+20123,46,Female,Uasin Gishu,Hypertension,20.9,136,59,8.6,6,0,1,2025-11-17
+20124,64,Male,Kiambu,Hypertension,25.7,147,80,6.6,4,0,1,2025-09-05
+20125,55,Female,Nairobi,Other,24.3,130,65,5.7,0,0,1,2026-05-13
+20126,48,Male,Kiambu,Other,24.0,141,70,2.5,9,0,1,2025-01-01
+20127,65,Male,Kiambu,Other,28.3,152,75,2.5,10,0,1,2025-03-03
+20128,23,Female,Turkana,Respiratory infection,27.0,135,66,6.0,5,0,1,2026-10-06
+20129,32,Male,Uasin Gishu,Malaria,26.9,145,67,5.2,6,0,1,2026-03-20
+20130,27,Female,Kiambu,Malaria,27.3,111,70,3.9,9,1,1,2026-01-03
+20131,36,Female,Nakuru,Other,28.3,126,68,5.9,8,0,1,2025-01-10
+20132,20,Male,Nairobi,Diabetes,16.0,118,57,6.0,1,1,1,2026-02-05
+20133,52,Male,Nairobi,Hypertension,23.9,133,82,7.4,8,0,1,2025-10-18
+20134,38,Female,Nairobi,Other,15.7,119,79,6.0,11,0,1,2026-02-06
+20135,18,Male,Uasin Gishu,Hypertension,25.7,99,75,7.9,9,0,1,2025-01-28
+20136,26,Male,Turkana,Diabetes,25.5,122,58,5.8,5,0,1,2026-01-04
+20137,47,Male,Nakuru,Malaria,30.2,122,77,5.6,6,0,1,2026-01-22
+20138,55,Female,Nairobi,Diabetes,30.8,137,81,7.6,3,0,1,2025-07-14
+20139,74,Female,Nairobi,Other,26.4,135,72,4.1,7,0,1,2025-02-06
+20140,89,Male,Uasin Gishu,Other,23.2,139,83,10.6,2,0,1,2026-10-12
+20141,49,Male,Nairobi,Diabetes,27.7,135,74,6.4,4,0,1,2026-04-20
+20142,26,Male,Nairobi,Malaria,23.1,123,85,6.4,3,0,1,2026-02-20
+20143,18,Female,Turkana,Other,25.5,124,84,6.7,4,0,1,2026-05-29
+20144,46,Female,Turkana,Respiratory infection,29.9,157,61,9.0,4,0,0,2026-03-25
+20145,29,Male,Unknown,Diabetes,23.0,126,91,7.1,0,0,0,2025-03-31
+20146,35,Female,Kisumu,Malaria,29.1,131,65,3.1,8,0,0,2025-11-01
+20147,32,Female,Nakuru,Malaria,28.5,111,79,8.2,5,0,1,2026-08-18
+20148,40,Male,Kisumu,Malaria,21.2,113,81,5.2,11,0,1,2025-07-12
+20149,59,Male,Kisumu,HIV,29.9,156,69,6.0,2,0,1,2026-10-13
+20150,45,Female,Nairobi,Diabetes,28.6,119,78,3.6,8,0,1,2025-02-13
+20151,39,Female,Kisumu,Other,26.0,115,72,6.7,2,0,1,2025-08-10
+20152,25,Female,Nakuru,Diabetes,22.1,120,74,4.7,6,0,1,2025-08-23
+20153,18,Male,Turkana,Diabetes,21.6,116,70,6.0,5,0,1,2026-02-18
+20154,34,Female,Uasin Gishu,Diabetes,23.1,114,81,5.3,5,0,1,2025-04-28
+20155,41,Male,Nairobi,Diabetes,27.9,125,74,9.1,7,1,0,2025-06-03
+20156,70,Female,Nairobi,HIV,21.2,158,78,9.2,9,0,1,2026-03-19
+20157,44,Male,Turkana,Hypertension,27.5,120,83,5.9,3,0,1,2025-07-10
+20158,58,Male,Kiambu,Other,19.9,120,81,5.9,10,0,1,2026-08-12
+20159,34,Male,Turkana,HIV,24.6,136,78,5.2,2,0,1,2026-08-06
+20160,23,Male,Uasin Gishu,Diabetes,26.0,125,64,7.7,3,0,0,2025-07-22
+20161,27,Male,Kisumu,HIV,36.5,114,62,5.2,3,0,1,2026-01-10
+20162,30,Female,Turkana,Malaria,19.3,104,66,5.1,11,0,0,2025-08-11
+20163,76,Male,Nakuru,Diabetes,32.1,137,75,7.5,1,0,1,2025-08-19
+20164,29,Male,Nairobi,Respiratory infection,26.2,122,77,4.9,4,0,1,2026-03-25
+20165,55,Male,Uasin Gishu,Malaria,27.4,149,84,5.7,5,0,1,2025-07-16
+20166,28,Female,Kiambu,Respiratory infection,26.0,110,69,3.1,9,1,1,2025-04-10
+20167,57,Male,Nakuru,Malaria,27.5,135,88,7.0,5,1,1,2025-06-23
+20168,48,Female,Turkana,Hypertension,24.8,140,86,9.1,11,0,1,2026-09-14
+20169,39,Male,Nairobi,Other,32.0,99,75,7.0,8,0,0,2025-06-23
+20170,41,Male,Nakuru,Hypertension,23.4,141,67,8.3,8,0,1,2025-09-01
+20171,32,Female,Kiambu,Other,30.6,110,84,4.4,9,0,0,2026-02-25
+20172,49,Male,Turkana,Other,22.6,136,74,6.2,1,0,1,2025-03-09
+20173,35,Male,Uasin Gishu,Malaria,25.2,128,73,4.2,5,0,0,2025-06-29
+20174,22,Female,Uasin Gishu,Respiratory infection,20.7,132,67,5.4,7,0,1,2025-04-27
+20175,22,Female,Uasin Gishu,Diabetes,27.5,126,62,7.1,2,1,1,2026-09-11
+20176,45,Female,Kisumu,Respiratory infection,32.0,102,62,6.0,1,0,1,2026-09-17
+20177,67,Male,Turkana,Respiratory infection,25.2,132,83,3.4,1,0,1,2026-05-21
+20178,45,Male,Kiambu,Other,24.6,132,68,3.6,9,0,0,2025-06-15
+20179,40,Male,Uasin Gishu,Diabetes,20.5,126,97,3.5,7,0,1,2026-02-17
+20180,47,Male,Kisumu,Respiratory infection,24.5,137,66,6.6,3,0,1,2026-03-20
+20181,63,Male,Nakuru,Hypertension,18.3,149,68,9.3,8,0,1,2026-08-05
+20182,46,Female,Kisumu,Diabetes,21.4,138,78,8.1,8,0,1,2025-04-15
+20183,35,Female,Nakuru,Diabetes,26.5,123,84,2.6,9,0,1,2026-05-08
+20184,60,Female,Kiambu,Malaria,31.4,116,78,8.2,10,0,1,2025-05-10
+20185,49,Female,Nakuru,Diabetes,38.1,127,79,7.4,10,0,1,2026-01-16
+20186,67,Male,Nairobi,HIV,22.9,146,64,3.2,2,0,1,2026-08-12
+20187,45,Female,Nairobi,Hypertension,32.0,117,69,5.3,9,1,1,2025-02-11
+20188,22,Female,Kisumu,Malaria,26.6,127,61,7.7,4,0,0,2025-04-10
+20189,20,Female,Kisumu,Diabetes,24.8,129,54,6.7,4,0,1,2026-06-28
+20190,68,Female,Nakuru,Other,27.4,144,80,3.6,7,0,1,2025-01-13
+20191,70,Female,Kisumu,Respiratory infection,25.8,106,61,6.8,7,0,1,2026-04-04
+20192,39,Female,Nairobi,Malaria,26.0,112,62,2.5,5,1,1,2025-12-02
+20193,36,Male,Kiambu,Other,23.7,149,68,5.4,11,0,1,2025-08-20
+20194,65,Female,Kisumu,Hypertension,19.2,134,71,7.7,2,1,1,2026-08-01
+20195,24,Female,Turkana,HIV,18.6,96,73,5.8,1,0,1,2026-07-22
+20196,28,Female,Turkana,HIV,28.4,137,73,5.0,0,0,1,2025-08-07
+20197,52,Male,Kiambu,Other,24.3,134,83,7.3,9,0,1,2025-01-03
+20198,36,Male,Turkana,Other,22.8,139,78,7.5,4,0,0,2025-03-27
+20199,42,Male,Turkana,Respiratory infection,25.5,132,83,8.0,5,0,1,2025-03-13
+20200,39,Male,Nakuru,HIV,29.1,133,73,7.3,7,0,1,2026-10-20
+20201,47,Male,Turkana,Diabetes,26.3,136,77,7.6,5,0,1,2026-02-04
+20202,65,Male,Nakuru,HIV,22.5,149,82,7.0,6,0,1,2026-03-29
+20203,43,Female,Kiambu,Unknown,31.0,157,75,5.8,0,1,1,2025-06-04
+20204,52,Male,Nakuru,Diabetes,32.6,146,72,6.0,1,0,1,2026-07-24
+20205,18,Female,Nairobi,Malaria,27.7,98,66,5.4,11,0,1,2026-04-29
+20206,41,Female,Nairobi,HIV,29.9,134,67,3.7,5,0,1,2026-05-19
+20207,29,Male,Uasin Gishu,Other,31.1,136,74,4.2,2,0,1,2025-11-10
+20208,22,Female,Kisumu,Hypertension,30.6,133,69,5.3,4,0,0,2026-04-13
+20209,28,Female,Turkana,Diabetes,28.3,117,65,6.2,4,0,1,2025-12-30
+20210,37,Male,Turkana,Malaria,28.2,140,67,8.2,3,0,0,2025-09-15
+20211,57,Female,Nakuru,Respiratory infection,27.8,148,67,5.7,3,0,1,2026-02-02
+20212,21,Female,Kiambu,Diabetes,20.6,149,77,7.5,8,0,0,2025-08-05
+20213,42,Male,Kiambu,HIV,28.7,120,74,7.6,1,0,1,2026-09-30
+20214,34,Male,Nairobi,HIV,19.4,119,65,5.4,3,0,1,2026-04-25
+20215,37,Female,Uasin Gishu,Other,21.9,123,79,6.8,5,0,1,2026-05-10
+20216,58,Male,Kiambu,HIV,31.4,131,72,5.4,6,1,1,2026-04-25
+20217,51,Unknown,Turkana,Malaria,29.3,123,64,8.0,10,0,1,2025-10-27
+20218,63,Female,Kisumu,Hypertension,32.2,106,86,6.9,11,0,0,2026-09-28
+20219,40,Female,Nairobi,Respiratory infection,24.3,123,69,3.8,3,0,1,2025-05-20
+20220,31,Female,Kisumu,HIV,20.3,128,68,6.1,6,0,1,2026-01-16
+20221,38,Female,Nairobi,Other,24.4,121,73,8.6,0,0,1,2025-02-16
+20222,46,Female,Kiambu,Respiratory infection,26.0,154,83,5.5,7,0,0,2025-07-17
+20223,45,Female,Nairobi,Hypertension,25.9,131,74,6.6,1,0,0,2026-01-20
+20224,25,Female,Nakuru,Diabetes,30.6,136,60,6.7,0,0,1,2025-11-24
+20225,43,Female,Turkana,Other,23.9,133,78,4.0,8,0,1,2026-09-22
+20226,46,Female,Uasin Gishu,Diabetes,27.1,141,70,6.7,2,0,1,2026-02-15
+20227,82,Female,Kisumu,Hypertension,21.1,152,97,3.4,5,0,1,2025-10-03
+20228,72,Female,Kiambu,Hypertension,27.5,160,79,4.7,1,0,0,2025-10-13
+20229,28,Female,Turkana,Diabetes,25.5,123,53,7.6,8,0,1,2026-02-14
+20230,37,Unknown,Uasin Gishu,Hypertension,22.1,132,75,6.4,9,0,1,2026-06-14
+20231,19,Female,Turkana,HIV,24.4,122,84,5.3,6,0,1,2025-07-04
+20232,33,Male,Nairobi,HIV,24.7,121,84,6.6,10,0,1,2026-01-27
+20233,47,Male,Kiambu,Diabetes,24.3,136,89,5.7,5,0,0,2026-01-20
+20234,61,Male,Uasin Gishu,HIV,33.5,165,69,5.8,2,0,1,2025-01-07
+20235,30,Male,Turkana,Hypertension,25.1,120,78,6.9,1,0,1,2026-09-03
+20236,32,Female,Uasin Gishu,Other,24.4,129,66,4.6,2,1,1,2026-01-17
+20237,18,Male,Turkana,HIV,16.1,132,70,5.9,2,0,0,2025-06-11
+20238,39,Female,Nairobi,HIV,25.7,141,63,5.3,3,0,1,2026-02-28
+20239,25,Female,Uasin Gishu,HIV,24.3,121,65,3.1,2,0,0,2026-03-30
+20240,34,Female,Nakuru,Malaria,22.4,96,66,4.2,7,0,1,2026-09-05
+20241,28,Female,Nakuru,Diabetes,31.7,128,78,8.5,1,0,1,2025-01-23
+20242,40,Female,Uasin Gishu,Hypertension,24.8,101,79,6.5,7,0,1,2025-10-04
+20243,18,Female,Kiambu,HIV,31.3,135,71,3.5,4,0,1,2025-05-01
+20244,19,Male,Uasin Gishu,Diabetes,25.8,120,58,3.2,8,0,1,2026-01-20
+20245,76,Male,Kiambu,Hypertension,25.7,158,78,5.6,6,0,1,2025-12-02
+20246,21,Female,Uasin Gishu,Hypertension,25.1,108,63,8.5,10,0,1,2025-11-14
+20247,24,Male,Kiambu,Malaria,25.5,101,77,5.5,5,0,1,2026-10-19
+20248,71,Female,Turkana,Respiratory infection,33.2,147,89,8.0,3,0,1,2025-12-22
+20249,88,Female,Nakuru,Hypertension,15.1,152,91,6.4,7,0,1,2025-10-02
+20250,23,Male,Nairobi,Other,16.5,114,64,6.6,7,0,1,2025-02-15
+20251,36,Male,Nairobi,Malaria,23.1,127,50,3.5,5,0,1,2025-07-13
+20252,47,Female,Uasin Gishu,Diabetes,25.6,165,60,7.4,6,0,0,2026-08-24
+20253,70,Female,Nairobi,Diabetes,28.6,153,90,5.2,5,0,0,2025-10-30
+20254,26,Female,Turkana,Diabetes,27.6,134,67,7.3,3,0,1,2026-09-02
+20255,38,Female,Uasin Gishu,Malaria,23.8,137,67,4.4,3,0,1,2025-12-23
+20256,54,Female,Turkana,Diabetes,30.1,153,89,6.1,10,0,1,2026-01-02
+20257,49,Male,Kisumu,Other,30.1,130,85,6.4,8,0,1,2025-10-15
+20258,36,Male,Kisumu,Hypertension,26.3,101,72,5.5,1,0,0,2026-01-08
+20259,40,Female,Turkana,Other,29.8,126,71,6.5,11,0,1,2025-02-14
+20260,20,Male,Turkana,Respiratory infection,26.7,128,68,5.3,8,0,1,2025-02-08
+20261,38,Female,Turkana,Hypertension,23.0,115,74,4.7,0,0,1,2025-11-15
+20262,38,Female,Nairobi,Diabetes,28.6,125,85,8.5,8,0,1,2026-02-05
+20263,46,Female,Turkana,Respiratory infection,26.0,123,78,7.6,7,0,0,2026-01-04
+20264,33,Male,Nakuru,Diabetes,25.5,143,77,4.5,10,0,1,2025-10-15
+20265,50,Male,Nakuru,Diabetes,32.1,142,84,6.8,5,0,1,2025-07-16
+20266,58,Male,Nairobi,Other,15.0,145,67,4.5,6,1,1,2026-04-20
+20267,44,Female,Nakuru,Hypertension,19.1,137,80,3.8,3,0,0,2026-02-09
+20268,48,Male,Nakuru,HIV,20.2,132,72,7.6,3,0,1,2025-02-01
+20269,43,Female,Kiambu,Hypertension,23.9,132,53,2.9,7,0,0,2025-10-30
+20270,42,Female,Uasin Gishu,Hypertension,24.4,115,56,7.4,9,1,0,2026-04-21
+20271,30,Male,Turkana,Other,18.7,97,63,5.4,10,0,1,2026-06-09
+20272,47,Female,Kisumu,Respiratory infection,21.1,133,79,5.4,9,0,0,2025-07-11
+20273,40,Male,Nakuru,Diabetes,21.6,132,74,6.5,7,0,1,2026-09-11
+20274,75,Male,Turkana,HIV,36.6,160,81,6.8,6,0,1,2026-03-12
+20275,67,Male,Turkana,Malaria,33.6,160,94,4.4,4,0,1,2025-10-20
+20276,48,Female,Kiambu,HIV,23.6,151,64,7.0,9,0,1,2026-02-24
+20277,30,Female,Uasin Gishu,Diabetes,23.9,111,71,6.0,3,0,1,2026-08-07
+20278,24,Male,Uasin Gishu,HIV,20.3,116,72,3.7,3,0,1,2025-06-01
+20279,61,Male,Nairobi,HIV,16.9,144,71,5.5,10,0,1,2025-04-11
+20280,46,Male,Nakuru,Other,25.0,161,74,8.1,7,0,1,2025-10-22
+20281,50,Male,Nairobi,HIV,21.0,151,62,8.7,4,0,1,2025-02-26
+20282,18,Female,Kisumu,HIV,25.1,130,80,7.0,10,0,1,2026-07-14
+20283,57,Female,Uasin Gishu,Other,18.3,132,71,3.8,11,0,1,2026-10-12
+20284,49,Male,Kiambu,Diabetes,22.1,122,91,6.6,3,1,0,2026-02-10
+20285,24,Female,Kisumu,Respiratory infection,26.2,129,70,7.2,6,0,0,2026-10-18
+20286,34,Male,Kiambu,HIV,27.1,112,80,7.0,5,0,1,2025-02-15
+20287,46,Female,Nakuru,HIV,27.4,128,74,7.1,8,0,1,2026-02-28
+20288,43,Male,Kisumu,HIV,19.6,128,73,6.4,11,0,1,2025-10-24
+20289,37,Male,Turkana,Respiratory infection,29.3,146,68,5.7,6,0,1,2025-07-05
+20290,40,Female,Uasin Gishu,Malaria,21.9,124,74,4.8,9,0,1,2025-07-28
+20291,38,Female,Turkana,Hypertension,28.3,98,75,2.6,7,0,1,2025-12-31
+20292,44,Male,Nakuru,Diabetes,25.5,136,68,6.4,10,0,1,2026-03-06
+20293,66,Female,Nairobi,HIV,19.3,133,77,6.1,4,0,1,2025-04-20
+20294,18,Male,Kiambu,Malaria,24.1,118,64,6.7,4,0,1,2026-02-16
+20295,38,Male,Uasin Gishu,Diabetes,27.1,126,91,3.5,5,1,1,2026-09-12
+20296,45,Male,Uasin Gishu,Malaria,28.3,127,73,6.9,11,0,0,2025-01-07
+20297,47,Female,Turkana,Respiratory infection,24.9,141,87,9.3,7,0,1,2026-08-11
+20298,36,Male,Kisumu,Other,32.4,108,71,5.9,1,0,1,2026-02-11
+20299,18,Female,Kiambu,Hypertension,30.0,111,71,5.7,0,0,1,2025-08-17
+20300,47,Male,Uasin Gishu,HIV,24.3,140,64,6.3,6,0,1,2026-05-07
+20301,70,Male,Nakuru,Diabetes,28.9,136,75,9.3,9,0,1,2026-02-18
+20302,18,Female,Kiambu,Other,34.2,98,70,4.1,5,0,1,2026-05-30
+20303,56,Female,Turkana,Malaria,34.3,144,89,6.1,6,0,1,2025-02-24
+20304,37,Female,Turkana,Malaria,20.0,140,74,5.8,9,0,1,2025-02-09
+20305,41,Male,Kisumu,Hypertension,21.3,128,84,4.9,6,0,1,2026-03-06
+20306,25,Female,Uasin Gishu,HIV,32.2,97,75,5.7,10,0,1,2025-07-23
+20307,37,Female,Nairobi,Other,20.7,135,85,8.1,7,1,1,2025-06-09
+20308,63,Male,Kiambu,Respiratory infection,19.5,120,77,8.9,8,0,1,2025-10-09
+20309,51,Male,Unknown,Other,25.7,137,94,6.6,9,0,0,2026-05-01
+20310,70,Male,Nakuru,Other,25.7,132,75,5.2,7,0,1,2025-05-01
+20311,61,Male,Turkana,Diabetes,25.0,125,71,10.0,0,1,1,2026-10-14
+20312,49,Male,Uasin Gishu,Diabetes,22.6,127,65,5.1,5,0,0,2025-10-09
+20313,70,Male,Turkana,Diabetes,22.5,141,98,4.8,1,1,1,2025-04-11
+20314,49,Female,Nairobi,Other,22.3,125,81,2.8,6,0,1,2025-02-17
+20315,55,Male,Kisumu,Malaria,21.5,143,73,8.2,1,0,1,2026-07-28
+20316,37,Male,Nairobi,Hypertension,35.8,121,82,7.4,6,0,1,2025-03-17
+20317,43,Male,Nakuru,Other,26.8,141,79,9.9,4,0,1,2025-10-08
+20318,31,Male,Nakuru,Malaria,29.5,127,87,3.4,0,0,0,2026-03-24
+20319,58,Male,Uasin Gishu,Other,23.3,129,64,8.3,1,1,0,2025-12-10
+20320,23,Female,Kisumu,Other,24.7,109,67,5.9,6,0,1,2025-06-25
+20321,55,Male,Kiambu,HIV,22.3,116,72,7.2,0,0,1,2025-03-14
+20322,39,Male,Nairobi,Hypertension,15.0,131,57,3.0,10,0,1,2026-04-21
+20323,61,Female,Kisumu,Respiratory infection,19.3,134,86,8.3,9,0,1,2025-11-25
+20324,54,Male,Kisumu,Respiratory infection,17.4,107,74,7.1,8,0,1,2025-02-02
+20325,71,Female,Nakuru,HIV,15.4,137,85,5.7,2,1,1,2025-05-02
+20326,54,Male,Nakuru,Diabetes,20.1,124,95,6.9,9,1,1,2026-01-12
+20327,18,Unknown,Nairobi,Malaria,31.5,136,66,4.5,7,0,1,2025-04-23
+20328,41,Female,Kiambu,Respiratory infection,25.3,108,70,4.8,4,0,1,2025-09-19
+20329,23,Female,Turkana,HIV,31.3,102,71,5.0,0,0,1,2025-03-25
+20330,34,Male,Kisumu,Malaria,27.3,138,80,2.7,6,0,1,2026-06-18
+20331,66,Female,Nairobi,Diabetes,29.0,157,74,7.3,9,0,0,2026-02-26
+20332,52,Male,Uasin Gishu,Diabetes,21.4,125,70,7.8,0,0,1,2026-06-09
+20333,31,Female,Nakuru,Malaria,27.9,116,80,4.6,0,1,1,2025-02-05
+20334,26,Male,Turkana,Hypertension,28.8,128,73,6.4,4,0,1,2025-09-09
+20335,43,Male,Kiambu,Malaria,22.9,102,57,5.3,6,0,1,2025-06-29
+20336,23,Male,Uasin Gishu,Diabetes,28.0,97,60,6.4,5,0,0,2026-02-21
+20337,31,Female,Nairobi,Respiratory infection,28.0,120,83,4.7,5,0,0,2026-07-04
+20338,47,Male,Kisumu,HIV,23.0,150,78,4.3,3,0,1,2025-06-02
+20339,60,Female,Nakuru,Other,20.4,133,71,7.6,0,0,1,2026-05-30
+20340,52,Female,Uasin Gishu,HIV,20.2,135,74,5.7,0,0,1,2026-01-24
+20341,18,Female,Kiambu,Respiratory infection,25.9,131,69,9.2,1,0,1,2026-07-06
+20342,47,Male,Turkana,Hypertension,27.0,157,80,5.9,8,0,1,2025-02-24
+20343,43,Male,Kiambu,Hypertension,25.7,123,63,4.2,9,0,1,2026-10-25
+20344,49,Female,Nairobi,HIV,25.6,132,68,7.9,5,0,1,2025-10-18
+20345,68,Female,Kisumu,Respiratory infection,28.1,164,81,6.9,0,1,1,2025-07-07
+20346,18,Male,Uasin Gishu,HIV,28.3,99,68,7.0,4,0,1,2025-05-03
+20347,33,Female,Nakuru,Malaria,32.5,137,76,7.8,11,1,1,2026-10-21
+20348,51,Female,Kisumu,Respiratory infection,31.2,121,65,4.7,2,0,1,2026-08-14
+20349,18,Male,Kiambu,Other,21.0,118,71,5.6,5,0,1,2025-03-29
+20350,66,Female,Nairobi,Respiratory infection,33.1,138,87,5.5,6,0,1,2025-10-25
+20351,48,Male,Kiambu,Diabetes,23.1,121,78,3.6,3,0,1,2026-05-06
+20352,56,Male,Nairobi,Respiratory infection,30.2,124,77,5.4,5,0,1,2026-01-31
+20353,33,Female,Kiambu,Respiratory infection,25.8,128,71,8.1,5,0,1,2025-05-07
+20354,55,Female,Nakuru,Diabetes,23.6,147,69,6.2,5,0,0,2025-08-30
+20355,59,Male,Nairobi,HIV,17.4,136,76,3.5,8,0,0,2025-09-04
+20356,46,Male,Nairobi,Other,24.7,132,84,3.2,6,0,1,2025-07-13
+20357,46,Male,Turkana,HIV,18.5,138,73,8.6,0,0,1,2026-10-05
+20358,46,Female,Kiambu,Malaria,29.9,119,67,5.6,0,0,1,2025-05-16
+20359,28,Male,Kisumu,Diabetes,32.3,131,67,4.7,4,0,1,2026-04-18
+20360,40,Male,Nairobi,HIV,21.9,138,75,5.3,10,0,1,2026-09-03
+20361,40,Female,Kiambu,Respiratory infection,25.7,159,70,3.3,0,0,1,2026-06-16
+20362,48,Male,Kisumu,HIV,22.2,127,78,8.2,0,0,1,2026-06-19
+20363,58,Male,Nakuru,Respiratory infection,22.7,132,81,5.1,8,0,1,2025-04-17
+20364,25,Female,Kisumu,Respiratory infection,29.0,130,77,8.1,5,0,1,2025-03-31
+20365,40,Female,Turkana,HIV,25.3,138,84,5.9,2,0,1,2026-06-08
+20366,66,Male,Turkana,Diabetes,33.3,135,86,8.2,2,0,1,2026-05-15
+20367,30,Female,Kiambu,Respiratory infection,23.3,118,64,5.8,7,0,1,2026-05-12
+20368,29,Female,Kiambu,Malaria,30.0,129,64,7.3,6,0,1,2025-10-07
+20369,45,Female,Kisumu,HIV,25.9,121,73,7.0,7,1,1,2025-12-17
+20370,56,Male,Nairobi,Other,29.1,131,73,6.9,3,1,1,2025-01-11
+20371,42,Female,Nakuru,Diabetes,25.7,130,64,6.4,6,0,1,2025-07-14
+20372,63,Male,Turkana,HIV,25.3,151,74,5.4,10,0,1,2025-12-20
+20373,56,Male,Kiambu,Other,25.0,129,72,9.1,3,0,0,2025-03-26
+20374,55,Male,Kisumu,HIV,21.7,113,71,4.3,4,0,1,2025-03-29
+20375,51,Male,Kiambu,Malaria,28.5,111,73,5.8,1,0,1,2025-01-31
+20376,79,Female,Turkana,Other,28.4,132,90,5.8,7,0,1,2025-05-21
+20377,39,Female,Nakuru,Malaria,28.2,112,74,6.5,0,0,0,2026-10-27
+20378,18,Female,Nairobi,Malaria,32.4,115,88,5.1,2,0,1,2026-04-11
+20379,68,Male,Kisumu,Hypertension,32.0,128,80,6.3,8,1,0,2026-09-27
+20380,35,Male,Nairobi,HIV,23.8,117,70,5.5,0,1,1,2025-06-22
+20381,44,Female,Kisumu,Malaria,27.2,121,74,3.1,11,0,1,2026-02-05
+20382,63,Male,Kiambu,Other,22.7,134,80,5.8,4,0,1,2026-08-20
+20383,18,Male,Kisumu,HIV,25.6,133,72,3.9,4,0,1,2025-08-24
+20384,22,Female,Kisumu,Other,22.8,127,86,2.9,6,0,1,2026-03-16
+20385,18,Female,Kiambu,Hypertension,32.8,117,62,6.0,7,1,1,2026-04-09
+20386,29,Female,Kisumu,Malaria,27.1,117,78,6.6,5,0,1,2026-07-11
+20387,49,Female,Nakuru,HIV,24.5,127,76,6.7,10,0,0,2026-10-11
+20388,50,Female,Nakuru,Malaria,30.9,137,62,6.8,11,0,1,2026-02-16
+20389,46,Male,Nairobi,Diabetes,15.7,138,80,2.5,2,0,1,2026-01-25
+20390,19,Male,Kisumu,Diabetes,16.4,107,79,3.5,8,0,1,2026-08-05
+20391,18,Male,Uasin Gishu,Respiratory infection,29.1,117,62,9.2,3,0,0,2026-04-03
+20392,43,Female,Turkana,HIV,25.7,105,74,4.0,11,1,0,2025-08-30
+20393,34,Male,Kiambu,Hypertension,26.6,128,58,6.8,3,0,1,2026-02-26
+20394,49,Female,Turkana,Malaria,19.5,142,65,4.6,3,0,0,2026-01-03
+20395,53,Female,Nairobi,HIV,25.7,131,84,5.9,8,0,0,2025-06-03
+20396,44,Male,Nairobi,Diabetes,34.5,152,70,4.7,9,0,0,2025-12-12
+20397,54,Unknown,Turkana,Hypertension,29.2,124,67,6.8,1,0,0,2026-02-22
+20398,46,Female,Turkana,Malaria,26.3,134,76,6.0,6,0,1,2026-08-28
+20399,50,Female,Nakuru,Other,23.5,133,71,5.0,4,0,1,2026-01-24
+20400,31,Male,Kisumu,Other,23.7,122,67,4.0,7,0,1,2025-04-21
+20401,39,Male,Uasin Gishu,Diabetes,15.9,126,79,6.3,6,0,1,2026-10-23
+20402,45,Female,Kisumu,HIV,26.7,132,65,3.7,11,0,1,2026-01-22
+20403,55,Male,Nakuru,HIV,29.3,146,69,6.5,11,1,1,2025-07-12
+20404,36,Male,Nairobi,Malaria,18.4,143,73,10.3,7,1,0,2026-05-20
+20405,50,Female,Nairobi,HIV,22.5,133,83,8.1,8,0,1,2025-09-15
+20406,38,Male,Nakuru,Diabetes,20.3,137,83,7.0,10,0,0,2025-09-05
+20407,40,Male,Uasin Gishu,Other,21.2,120,68,5.7,2,0,1,2026-07-16
+20408,55,Male,Uasin Gishu,Other,25.7,145,83,2.5,8,1,1,2026-08-04
+20409,18,Female,Kiambu,Other,16.1,108,62,3.6,9,0,1,2025-12-17
+20410,21,Female,Nairobi,Diabetes,28.3,132,84,8.0,1,0,0,2025-09-07
+20411,18,Male,Uasin Gishu,Malaria,28.9,144,60,4.5,10,0,1,2026-08-01
+20412,18,Male,Turkana,Malaria,24.4,116,79,4.6,8,0,1,2025-04-26
+20413,31,Female,Kiambu,Unknown,15.0,97,66,5.5,4,0,1,2026-05-15
+20414,54,Male,Nakuru,Malaria,21.0,128,92,4.0,5,0,1,2026-01-26
+20415,37,Male,Uasin Gishu,Malaria,31.0,141,77,3.7,5,0,1,2026-07-26
+20416,45,Female,Kiambu,Hypertension,15.0,137,66,5.7,11,0,0,2025-10-09
+20417,59,Male,Nakuru,Respiratory infection,23.9,140,73,4.3,11,0,1,2026-07-11
+20418,63,Female,Nakuru,Respiratory infection,20.2,152,84,4.5,9,0,1,2025-01-11
+20419,41,Female,Turkana,Malaria,29.1,134,82,4.5,7,0,1,2026-05-23
+20420,64,Female,Turkana,Respiratory infection,22.5,155,77,6.7,1,0,0,2025-02-16
+20421,43,Female,Kiambu,Respiratory infection,27.3,141,74,5.4,10,0,1,2026-03-06
+20422,29,Male,Uasin Gishu,Malaria,28.0,141,77,5.5,1,0,1,2025-05-11
+20423,32,Female,Uasin Gishu,Diabetes,33.8,128,72,6.8,2,0,1,2026-10-07
+20424,18,Male,Uasin Gishu,Respiratory infection,24.6,128,58,5.8,0,1,1,2026-05-30
+20425,28,Female,Nakuru,Respiratory infection,27.2,118,64,5.3,11,0,1,2025-03-11
+20426,36,Male,Nairobi,Other,18.8,119,74,6.6,5,0,1,2026-08-20
+20427,55,Female,Kisumu,HIV,30.9,156,86,6.9,2,0,1,2025-06-18
+20428,70,Male,Kisumu,Hypertension,22.1,146,92,5.5,0,0,1,2026-01-01
+20429,20,Male,Uasin Gishu,Other,23.0,128,75,5.9,4,0,1,2025-02-27
+20430,48,Male,Turkana,Malaria,25.4,133,77,4.5,8,0,0,2025-03-12
+20431,25,Female,Turkana,Other,18.5,113,76,4.3,11,0,1,2025-06-11
+20432,50,Female,Nairobi,HIV,26.5,133,70,7.1,6,0,1,2025-12-24
+20433,40,Unknown,Nakuru,HIV,29.9,145,72,6.6,7,0,1,2025-12-30
+20434,18,Female,Kisumu,Respiratory infection,26.8,124,62,6.6,10,0,1,2026-07-27
+20435,57,Female,Nairobi,Hypertension,18.3,116,66,5.8,10,0,1,2025-04-21
+20436,32,Male,Uasin Gishu,Malaria,24.9,121,74,5.9,3,0,1,2026-05-17
+20437,33,Female,Kiambu,Hypertension,28.8,146,73,7.0,11,1,1,2025-01-04
+20438,25,Female,Nairobi,Hypertension,17.0,118,76,7.4,6,0,1,2025-07-14
+20439,32,Female,Nairobi,Other,20.7,102,76,7.3,11,0,1,2025-04-28
+20440,49,Male,Kisumu,HIV,29.4,155,77,5.6,1,0,1,2025-03-24
+20441,39,Male,Unknown,Respiratory infection,26.7,136,77,8.2,1,0,0,2026-01-27
+20442,47,Male,Uasin Gishu,Other,27.4,131,74,6.2,10,0,1,2026-08-26
+20443,48,Female,Turkana,Malaria,33.9,128,78,6.9,8,0,1,2026-03-23
+20444,63,Female,Kiambu,Hypertension,27.6,152,72,6.3,2,0,1,2026-07-26
+20445,37,Male,Nairobi,HIV,28.5,120,75,6.2,10,0,1,2026-01-31
+20446,18,Male,Kisumu,Respiratory infection,37.7,131,74,4.5,1,0,0,2025-02-05
+20447,59,Female,Nairobi,Hypertension,24.5,144,71,7.0,8,0,1,2025-08-20
+20448,37,Female,Uasin Gishu,HIV,21.9,129,73,10.6,2,0,1,2026-07-06
+20449,60,Female,Kiambu,Hypertension,27.4,140,72,5.2,0,0,1,2025-01-30
+20450,48,Male,Kisumu,Other,27.5,130,70,5.9,9,0,1,2025-03-07
+20451,40,Female,Nairobi,Diabetes,23.1,141,64,5.0,10,0,0,2026-07-12
+20452,48,Male,Nairobi,Diabetes,20.9,122,85,5.0,1,0,1,2025-02-12
+20453,73,Male,Kiambu,Respiratory infection,35.9,125,88,8.4,1,0,1,2026-10-04
+20454,75,Male,Nairobi,Diabetes,27.0,153,84,4.7,7,0,1,2026-05-23
+20455,43,Male,Nakuru,Other,22.2,137,89,5.0,0,1,1,2026-03-21
+20456,45,Female,Uasin Gishu,Other,29.6,136,72,3.1,8,0,1,2025-12-25
+20457,59,Male,Uasin Gishu,Other,25.0,142,101,4.5,10,0,1,2025-03-01
+20458,28,Female,Kiambu,Other,24.4,118,69,2.9,9,1,1,2025-10-05
+20459,47,Female,Nakuru,Diabetes,28.0,141,76,6.9,2,0,1,2026-06-25
+20460,42,Female,Turkana,Diabetes,19.7,128,70,10.6,2,0,1,2026-08-28
+20461,47,Female,Nairobi,Hypertension,27.1,126,77,5.2,8,0,1,2025-10-27
+20462,29,Female,Nairobi,Hypertension,34.1,119,77,3.0,0,0,0,2026-07-16
+20463,18,Female,Turkana,Other,27.6,141,68,7.3,6,0,1,2026-06-04
+20464,18,Female,Kisumu,Respiratory infection,23.8,96,83,4.6,5,0,1,2025-02-08
+20465,24,Female,Nairobi,Malaria,23.2,126,72,8.0,8,0,1,2026-02-19
+20466,35,Female,Uasin Gishu,Other,23.7,105,74,5.3,2,0,0,2026-02-17
+20467,37,Female,Nakuru,Malaria,24.4,125,65,4.7,9,0,1,2025-12-30
+20468,73,Male,Turkana,Hypertension,23.8,139,83,5.5,8,0,1,2026-06-01
+20469,60,Female,Uasin Gishu,Hypertension,29.6,113,76,7.1,2,0,1,2026-08-19
+20470,27,Female,Uasin Gishu,Malaria,17.7,126,66,5.4,4,0,1,2026-01-04
+20471,48,Female,Uasin Gishu,HIV,29.4,127,68,5.0,0,0,1,2025-08-03
+20472,35,Female,Kiambu,Respiratory infection,23.8,100,93,5.5,5,0,1,2026-10-20
+20473,37,Male,Uasin Gishu,Malaria,27.2,137,70,3.6,3,0,1,2026-10-07
+20474,45,Male,Turkana,Respiratory infection,20.4,148,62,6.5,1,0,0,2026-04-04
+20475,52,Male,Nakuru,Malaria,31.5,152,70,2.8,6,0,1,2026-03-05
+20476,37,Male,Uasin Gishu,Respiratory infection,31.1,131,72,5.0,6,0,1,2025-03-11
+20477,59,Female,Nairobi,Other,29.8,138,81,7.1,1,0,1,2025-09-26
+20478,24,Male,Kisumu,Malaria,18.7,136,74,6.3,2,1,0,2025-05-13
+20479,42,Female,Nairobi,Hypertension,29.2,149,79,6.8,0,0,0,2025-12-11
+20480,84,Male,Kiambu,HIV,27.3,164,77,5.7,8,0,1,2026-07-07
+20481,46,Female,Kisumu,Respiratory infection,18.3,120,77,7.8,4,1,1,2025-05-31
+20482,65,Male,Uasin Gishu,Other,25.4,143,71,7.4,0,0,1,2026-10-29
+20483,43,Female,Uasin Gishu,Respiratory infection,27.1,135,69,6.6,2,1,0,2025-03-28
+20484,51,Male,Kisumu,Other,28.0,112,68,7.4,11,0,1,2025-03-07
+20485,41,Female,Kiambu,Other,26.3,134,64,7.1,3,0,1,2026-10-14
+20486,39,Male,Unknown,Respiratory infection,26.8,155,81,5.1,8,1,1,2025-03-09
+20487,30,Male,Uasin Gishu,Malaria,32.1,131,77,3.5,5,0,0,2026-05-07
+20488,49,Male,Uasin Gishu,HIV,31.0,150,83,6.5,2,0,0,2026-05-26
+20489,28,Female,Kiambu,HIV,15.0,124,71,6.7,3,0,0,2025-08-09
+20490,53,Female,Kiambu,Diabetes,24.1,134,82,7.7,0,0,1,2025-02-13
+20491,59,Male,Nakuru,Hypertension,24.8,142,63,4.2,8,0,0,2025-07-26
+20492,48,Female,Kiambu,Respiratory infection,17.6,122,82,4.3,4,0,0,2025-02-15
+20493,37,Female,Kiambu,Hypertension,25.9,115,74,6.6,5,0,1,2026-03-26
+20494,49,Female,Nairobi,HIV,31.1,148,80,5.7,1,0,1,2026-08-18
+20495,37,Female,Kisumu,Diabetes,20.6,143,75,2.6,9,0,0,2026-10-30
+20496,57,Female,Kisumu,Other,27.0,125,69,6.4,2,0,1,2026-06-20
+20497,18,Female,Turkana,Other,21.4,129,57,2.7,6,0,1,2026-06-03
+20498,37,Male,Kiambu,Hypertension,22.5,125,67,4.2,10,0,1,2026-08-13
+20499,18,Male,Nakuru,Respiratory infection,32.1,121,73,8.1,8,0,1,2026-05-31
+20500,18,Female,Nakuru,Respiratory infection,23.1,123,74,8.9,7,0,1,2026-03-12
+20501,64,Female,Kisumu,Other,27.6,152,67,3.7,10,0,1,2026-10-29
+20502,56,Female,Kiambu,Other,17.1,137,68,5.2,2,0,1,2025-08-04
+20503,30,Male,Turkana,Malaria,33.9,140,65,5.9,11,0,0,2025-10-04
+20504,18,Female,Nakuru,Hypertension,28.2,121,66,8.8,6,0,1,2026-08-30
+20505,18,Male,Kisumu,Malaria,24.7,124,58,5.0,4,1,1,2025-07-28
+20506,33,Male,Kiambu,Diabetes,28.1,115,60,5.0,3,1,0,2025-07-19
+20507,81,Male,Turkana,Hypertension,19.2,174,75,8.4,8,0,1,2025-04-12
+20508,49,Female,Kisumu,Malaria,30.8,138,75,5.2,11,1,1,2025-07-04
+20509,33,Male,Kisumu,Malaria,24.0,133,62,7.0,8,0,1,2026-02-02
+20510,49,Male,Kisumu,Malaria,24.6,113,74,3.3,0,0,1,2026-08-17
+20511,18,Male,Kiambu,Hypertension,23.3,107,77,5.5,5,0,1,2025-04-02
+20512,37,Male,Nakuru,Hypertension,22.9,141,62,3.0,8,0,1,2026-04-01
+20513,44,Male,Kisumu,HIV,28.6,133,72,4.0,4,0,0,2026-05-28
+20514,41,Female,Unknown,Malaria,26.7,106,81,7.2,9,0,1,2026-08-23
+20515,55,Male,Turkana,Malaria,28.4,148,73,5.7,8,0,1,2026-05-17
+20516,48,Male,Kisumu,Other,25.5,125,70,5.3,0,0,0,2025-04-15
+20517,53,Female,Nairobi,Malaria,27.8,151,85,4.5,6,1,1,2025-11-24
+20518,31,Female,Uasin Gishu,Hypertension,23.6,122,69,5.4,2,0,1,2026-09-30
+20519,56,Male,Nairobi,HIV,35.5,138,85,6.3,5,0,1,2026-08-31
+20520,68,Female,Turkana,Diabetes,18.4,156,82,7.5,4,0,1,2026-02-14
+20521,26,Female,Kiambu,Hypertension,31.2,110,67,2.5,9,0,1,2026-10-07
+20522,28,Unknown,Kiambu,Hypertension,31.7,110,74,4.4,10,0,1,2026-03-23
+20523,63,Male,Nairobi,Hypertension,21.7,137,80,6.1,5,0,1,2025-02-13
+20524,39,Male,Uasin Gishu,Hypertension,35.5,137,81,5.6,6,0,1,2026-09-04
+20525,64,Female,Kisumu,Respiratory infection,30.0,124,73,6.5,7,0,1,2025-04-23
+20526,35,Female,Kisumu,HIV,29.9,105,72,6.3,7,0,1,2025-09-12
+20527,65,Male,Unknown,Diabetes,25.6,150,78,5.8,7,0,1,2025-06-09
+20528,44,Male,Nairobi,HIV,24.5,123,79,4.9,9,0,1,2026-04-27
+20529,46,Female,Turkana,Diabetes,24.6,126,66,5.4,11,0,1,2025-01-21
+20530,67,Female,Kisumu,Respiratory infection,27.3,119,87,7.8,9,0,1,2026-03-05
+20531,36,Female,Turkana,HIV,31.8,118,76,4.6,1,0,1,2026-08-02
+20532,27,Male,Nairobi,Hypertension,26.3,121,60,5.7,5,0,1,2026-06-12
+20533,35,Female,Uasin Gishu,HIV,21.4,137,82,6.1,5,0,0,2025-07-25
+20534,49,Male,Kiambu,Other,29.2,123,93,8.5,6,0,1,2026-08-24
+20535,18,Female,Nakuru,Respiratory infection,29.6,137,77,5.3,6,0,1,2025-08-31
+20536,52,Male,Nakuru,Diabetes,28.4,126,87,7.4,8,0,1,2026-03-31
+20537,33,Female,Kisumu,Diabetes,28.9,116,72,7.9,5,1,1,2025-12-05
+20538,60,Male,Nairobi,HIV,24.3,156,64,5.7,3,0,1,2025-02-15
+20539,18,Male,Kiambu,Hypertension,21.3,120,54,5.4,5,0,1,2025-01-02
+20540,29,Female,Nakuru,Respiratory infection,21.6,116,73,5.2,10,0,1,2025-05-03
+20541,18,Female,Uasin Gishu,Malaria,25.7,115,64,5.4,3,0,0,2026-09-18
+20542,29,Male,Uasin Gishu,Other,26.6,139,63,7.3,0,0,1,2026-10-01
+20543,46,Male,Kiambu,Hypertension,25.1,149,74,6.2,11,0,1,2025-10-02
+20544,39,Male,Turkana,Diabetes,23.5,118,78,6.2,2,0,1,2026-10-11
+20545,38,Male,Nairobi,Hypertension,15.0,126,61,3.9,7,0,1,2025-02-03
+20546,39,Male,Nakuru,Diabetes,19.9,129,69,4.2,9,0,0,2026-10-10
+20547,45,Male,Kisumu,Other,30.5,119,86,9.4,3,0,1,2025-06-04
+20548,26,Female,Nakuru,Diabetes,22.5,120,62,5.5,4,0,0,2025-01-25
+20549,53,Male,Nakuru,Hypertension,27.1,135,83,4.5,3,0,1,2026-05-23
+20550,53,Female,Uasin Gishu,Malaria,19.2,148,72,8.2,1,0,0,2025-09-13
+20551,48,Female,Kisumu,HIV,32.0,146,79,6.3,1,0,0,2025-07-15
+20552,51,Female,Kisumu,Hypertension,24.9,130,84,6.8,2,0,0,2026-05-24
+20553,47,Female,Turkana,Hypertension,26.8,129,80,5.6,5,1,1,2025-08-11
+20554,75,Female,Nairobi,Diabetes,36.0,153,87,5.3,6,0,1,2026-05-19
+20555,41,Male,Nairobi,HIV,32.3,121,64,5.5,0,0,1,2025-05-11
+20556,37,Female,Turkana,HIV,24.1,134,81,3.4,10,0,1,2025-02-27
+20557,30,Female,Nakuru,HIV,22.8,122,64,5.7,8,0,1,2025-08-06
+20558,25,Female,Turkana,Hypertension,24.0,109,72,6.3,0,0,1,2026-02-12
+20559,22,Male,Nakuru,HIV,27.8,108,71,8.9,10,0,1,2025-05-31
+20560,28,Male,Kiambu,Other,25.0,139,74,5.9,0,0,0,2025-04-06
+20561,41,Male,Kisumu,Diabetes,23.7,127,76,2.5,6,0,1,2026-05-17
+20562,47,Female,Turkana,Malaria,32.1,151,68,5.6,5,0,0,2025-11-26
+20563,43,Male,Kisumu,Respiratory infection,25.0,123,63,10.5,6,0,1,2025-10-16
+20564,30,Male,Nairobi,Hypertension,35.8,126,78,7.3,11,1,1,2025-06-10
+20565,56,Female,Nairobi,Other,25.9,165,78,4.4,11,0,0,2025-01-12
+20566,54,Male,Uasin Gishu,HIV,33.5,122,85,6.8,3,0,0,2025-02-05
+20567,39,Female,Turkana,Diabetes,27.1,105,72,4.5,6,0,1,2026-04-01
+20568,32,Male,Kiambu,Diabetes,29.8,139,60,3.5,11,0,0,2025-02-23
+20569,51,Male,Kiambu,HIV,22.2,124,83,5.2,8,0,1,2025-06-15
+20570,45,Female,Nairobi,Diabetes,21.7,130,71,6.0,10,0,0,2026-09-02
+20571,19,Male,Uasin Gishu,Diabetes,27.6,110,72,2.6,5,0,1,2025-08-19
+20572,41,Female,Nairobi,Respiratory infection,29.9,132,68,3.8,3,0,1,2026-05-14
+20573,46,Female,Nakuru,Diabetes,25.7,120,87,5.8,6,0,1,2025-08-18
+20574,28,Male,Kiambu,Other,19.7,120,64,5.1,9,0,1,2026-09-16
+20575,45,Male,Kisumu,Respiratory infection,19.4,136,71,6.5,11,0,1,2026-07-04
+20576,19,Male,Kiambu,Other,19.1,105,70,3.7,8,0,1,2025-11-11
+20577,63,Male,Nakuru,HIV,17.5,131,69,7.0,8,0,1,2026-04-03
+20578,62,Female,Nairobi,Other,26.0,135,80,3.8,6,0,0,2025-10-04
+20579,38,Male,Kisumu,Malaria,30.6,110,85,8.6,3,1,1,2026-09-24
+20580,48,Male,Kiambu,Other,25.4,127,71,2.9,5,0,1,2025-08-28
+20581,18,Male,Kiambu,Hypertension,15.3,118,72,3.9,5,0,1,2026-07-14
+20582,23,Male,Kiambu,Other,24.6,115,48,6.5,9,0,1,2026-02-17
+20583,37,Male,Unknown,Malaria,24.8,123,72,8.6,6,0,1,2026-03-07
+20584,25,Male,Kisumu,HIV,34.9,120,67,6.3,9,0,1,2025-08-24
+20585,53,Female,Kisumu,Hypertension,18.9,127,69,6.8,0,1,1,2026-07-12
+20586,74,Female,Kisumu,HIV,23.7,153,88,5.8,9,0,1,2026-05-15
+20587,23,Female,Uasin Gishu,Other,33.2,137,67,4.1,6,0,1,2026-06-30
+20588,29,Male,Kisumu,Diabetes,27.5,117,69,5.0,11,0,1,2026-06-21
+20589,46,Male,Kisumu,Diabetes,28.0,137,71,3.7,5,0,0,2025-04-16
+20590,68,Female,Kiambu,Malaria,26.0,139,63,3.6,5,0,0,2026-08-09
+20591,22,Male,Kiambu,Hypertension,27.0,123,60,6.5,1,0,1,2026-07-18
+20592,46,Male,Nairobi,HIV,29.0,150,82,3.9,9,0,1,2025-06-12
+20593,71,Female,Turkana,Respiratory infection,21.9,150,62,6.3,8,0,1,2026-10-19
+20594,18,Female,Nairobi,Other,29.5,96,62,3.6,10,0,1,2025-12-19
+20595,22,Male,Kiambu,Respiratory infection,19.3,124,66,6.3,1,0,1,2025-08-04
+20596,35,Female,Kiambu,Malaria,27.0,140,86,5.0,2,0,0,2025-05-30
+20597,34,Male,Kiambu,Hypertension,26.3,122,78,8.2,10,0,1,2025-09-01
+20598,55,Male,Nakuru,Malaria,22.7,147,72,6.4,0,0,1,2025-01-26
+20599,46,Male,Turkana,Malaria,25.4,123,85,7.9,6,0,1,2026-04-08
+20600,18,Female,Uasin Gishu,HIV,22.7,99,63,4.5,4,0,1,2026-04-19

@@ -13,9 +13,6 @@ A complete Python portfolio project covering healthcare data loading, quality as
 - `reports/`: report template and generated summaries.
 - `documentation/`: data dictionary and methodology.
 
-## Setup
-Use Python 3.10+. Install dependencies with `pip install -r requirements.txt`. Open the project in VS Code or JupyterLab. Run notebooks 01, 02 and 03 in order, or execute scripts from the project root.
-
 ## Skills demonstrated
 Pandas, NumPy, missing-value handling, duplicate detection, groupby, datetime analysis, Matplotlib, Seaborn, SciPy hypothesis tests, scikit-learn pipelines, one-hot encoding, logistic regression, confusion matrix and ROC-AUC.
 
